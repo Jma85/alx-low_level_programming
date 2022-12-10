@@ -1,9 +1,8 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
 /**
- * main - print random num
+ * main - print random number  and state
  *
  * Return: 0
 */
