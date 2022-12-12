@@ -1,18 +1,20 @@
 #include <stdio.h>
+#include <ctype.h>
 
 /**
- * main - print the alphabet in lower case
- *
- * Return: always 0
+ * decrition : msin - program ptints alphabet in lowercase
+ * return : 0
 */
+
 int main(void)
 {
-	char letter;
-
-	for (letter = 'a'; letter <= 'z'; letter++);
-		putchar(letter);
-
-	putchar('\n');
-
-	return (0);
+int n = 'a'
+while(n <= 'z')
+{
+putchar(n);
+n += 1;
 }
+putchar('\n');
+return (0);
+}
+
