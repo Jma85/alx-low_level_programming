@@ -2,7 +2,7 @@
 #define _HASH_TABLES_H_
 
 #include <stdio.h>
-#include <stdio.h>
+#include <stdlib.h>
 #include <string.h>
 
 /**
@@ -46,7 +46,7 @@ void hash_table_delete(hash_table_t *ht);
  * @value : value corresponding the key
  * @next : A pointer that points to the node of the list
  * @sprev: a pointer to the previous element of the sorted linked list
- * @next: a pointer to the next element of a sorted linked list
+ * @snext: a pointer to the next element of a sorted linked list
  */
 typedef struct shash_node_s
 {
@@ -54,7 +54,7 @@ typedef struct shash_node_s
 	char *value;
 	struct shash_node_s *next;
 	struct shash_node_s *sprev;
-	struct shash_node_s *next;
+	struct shash_node_s *snext;
 } shash_node_t;
 
 /**
